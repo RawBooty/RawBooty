@@ -3,47 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RawBooty - Economics & Investing</title>
-  <meta name="description" content="Raw (unfiltered) commentary on finance and economics, cycles, fiat decay, etc... Publications, tools, and curated resources."/>
+  <title>RawBooty - Brutalist Economics & Investing</title>
+  <meta name="description" content="Raw (unfiltered) takes on economics, cycles, fiat decay, and market survival. Publications, tools, and curated resources."/>
   <meta name="robots" content="index, follow"/>
 
   <!-- Favicons -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-  <!-- Add more if you generated variants -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png"/>
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/android-chrome-192x192.png"/>
 
-  <!-- Open Graph / Social Sharing -->
+  <!-- Basic Open Graph / Social (keep for X shares) -->
   <meta property="og:title" content="RawBooty"/>
-  <meta property="og:description" content="Unfiltered social, political and economic commentary. Economics, investing insights, and market tools."/>
+  <meta property="og:description" content="Unfiltered economics, investing insights, and market tools."/>
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://rawbooty.com"/>
-  <meta property="og:image" content="https://rawbooty.com/assets/images/rb-logo.png"/> <!-- Change to a 1200x630 share image later -->
-  <meta property="og:site_name" content="RawBooty"/>
-
-  <!-- Twitter/X Cards -->
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="RawBooty"/>
-  <meta name="twitter:description" content="Raw takes on cycles, fiat, and survival. Publications & curated resources."/>
-  <meta name="twitter:image" content="https://rawbooty.com/assets/images/rb-logo.png"/>
-  <meta name="twitter:site" content="@RawBooty2"/>
+  <meta property="og:url" content="https://rawbooty.github.io/RawBooty/"/>
+  <meta property="og:image" content="https://rawbooty.github.io/RawBooty/assets/images/rb-logo.png"/>
 
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: #000000;
-      color: #ffffff;
+      background: #ffffff;          /* White background */
+      color: #000000;               /* Black text */
       font-family: 'Courier New', Courier, monospace;
       line-height: 1.5;
+      text-align: center;
     }
     header {
-      text-align: center;
-      padding: 60px 20px 40px;
+      padding: 80px 20px 60px;
     }
     .logo-container {
       max-width: 90%;
-      margin: 0 auto;
+      margin: 0 auto 40px;
     }
     .logo-img {
       max-width: 100%;
@@ -51,36 +40,33 @@
     }
     nav {
       margin: 40px 0;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      align-items: center;
+      font-size: 1.8rem;
     }
     .nav-link {
-      color: #ffd700;
-      font-size: 2rem;
-      text-decoration: none;
-      border: 2px solid #ffd700;
-      padding: 15px 40px;
-      transition: all 0.3s;
+      color: #000000;
+      text-decoration: underline;
+      margin: 0 40px;
+      transition: color 0.3s;
     }
     .nav-link:hover {
-      background: #ffd700;
-      color: #000;
+      color: #666666;
     }
     footer {
-      text-align: center;
+      margin-top: 80px;
       padding: 40px 20px;
-      color: #888;
+      color: #666666;
       font-size: 0.9rem;
-      border-top: 1px solid #333;
+      border-top: 1px solid #ddd;
     }
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
       nav {
-        flex-direction: row;
-        justify-content: center;
-        gap: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .nav-link {
+        margin: 0;
       }
     }
   </style>
@@ -89,8 +75,10 @@
 
   <header>
     <div class="logo-container">
-      <!-- Your uploaded logo image -->
+      <!-- Logo path – change this if your filename/path is different -->
       <img src="/assets/images/rb-logo.png" alt="RawBooty" class="logo-img"/>
+      <!-- If logo is in root instead, use: src="/rb-logo.png" -->
+      <!-- If separate coins + text, we can rebuild with <h1> + <img> side-by-side -->
     </div>
 
     <nav>
@@ -101,9 +89,7 @@
 
   <footer>
     <p>RawBooty – unfiltered social, political and economic commentary</p>
-
-    <p>General Disclaimer</p>
-    <p>Content on this site is provided for informational and analytical purposes only. It reflects observations, interpretations, and models constructed under limited constraints and evolving data. No content constitutes financial, legal, investment, or professional advice. No fiduciary duty is created. Readers are solely responsible for their own decisions and risk exposure. Data, tools, and visualizations are illustrative. They may be incomplete, outdated, or incorrect. No warranty is made as to accuracy, completeness, or suitability for any purpose. Do your own due diligence upon nothing on this site should be relied upon in any way when making financial or life decisions.</p>
+    <p>General Disclaimer: Content is for informational purposes only. No financial, legal, investment, or professional advice. No fiduciary duty. Readers bear full responsibility for decisions and risks. Data/tools illustrative only. No warranty of accuracy or completeness.</p>
   </footer>
 
 </body>
