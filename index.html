@@ -75,10 +75,29 @@
     }
 
     .paper-title a {
-      text-decoration: none;
-      color: #000;
-      font-weight: bold;
+     text-decoration: none;
+     color: #000;
+     font-weight: bold;
+     position: relative;
+     display: inline-block;
     }
+
+    .paper-title a::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: -3px;
+     width: 100%;
+     height: 2px;
+     background: #000;
+     opacity: 0;
+     transition: opacity 0.2s ease;
+    }
+
+    .paper-title a:hover::after {
+      opacity: 1;
+   }
+
 
     .paper-summary {
       margin-top: 6px;
@@ -143,6 +162,7 @@
   </div>
 </body>
 </html>
+
 
 
 
