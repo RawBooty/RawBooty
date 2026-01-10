@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rawbooty.github.io/RawBooty/sitemap.xml
