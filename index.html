@@ -1,106 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RawBooty - Economics & Investing</title>
-  <meta name="description" content="Raw (unfiltered) takes on economics, cycles, fiat decay, and market survival. Publications, tools, and curated resources."/>
-  <meta name="robots" content="index, follow"/>
-
-  <!-- Favicons -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-
-  <!-- Basic Open Graph / Social (keep for X shares) -->
-  <meta property="og:title" content="RawBooty"/>
-  <meta property="og:description" content="Unfiltered economics, investing insights, and market tools."/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="https://rawbooty.github.io/RawBooty/"/>
-  <meta property="og:image" content="https://rawbooty.github.io/RawBooty/assets/images/RBLogo.png"/>
+  <meta charset="UTF-8">
+  <title>RawBooty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: #ffffff;          /* White background */
-      color: #000000;               /* Black text */
-      font-family: 'Courier New', Courier, monospace;
-      line-height: 1.5;
-      text-align: center;
-    }
-    header {
-      padding: 80px 20px 60px;
-    }
-    .logo-container {
-      max-width: 90%;
-      margin: 0 auto 40px;
-    }
-    .logo-img {
-      width: 300px
-      max-width: 100%;
-      height: auto;
-    }
-    nav {
-      margin: 40px 0;
-      font-size: 1.8rem;
-    }
-    .nav-link {
-      color: #000000;
-      text-decoration: underline;
-      margin: 0 40px;
-      transition: color 0.3s;
-    }
-    .nav-link:hover {
-      color: #666666;
-    }
-    footer {
-      margin-top: 80px;
-      padding: 40px 20px;
-      color: #666666;
-      font-size: 0.9rem;
-      border-top: 1px solid #ddd;
+      font-family: "Courier New", Courier, monospace;
+      background: #fff;
+      color: #000;
     }
 
-    @media (max-width: 768px) {
-      nav {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-      }
-      .nav-link {
-        margin: 0;
-      }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 80px 20px 120px;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .logo img {
+      max-width: 260px;
+      width: 100%;
+      height: auto;
+    }
+
+    .nav {
+      text-align: center;
+      margin-bottom: 48px;
+      font-size: 1rem;
+    }
+    .nav a {
+      margin: 0 16px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .papers .paper {
+      margin-bottom: 40px;
+    }
+
+    .paper-date {
+      display: inline-block;
+      width: 100px;
+      font-weight: bold;
+    }
+    .paper-title a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .paper-summary {
+      margin-top: 6px;
+      color: #333;
+      line-height: 1.5;
+      max-width: 680px;
+    }
+
+    .disclaimer {
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #555;
     }
   </style>
 </head>
-<body>
 
-  <header>
-    <div class="logo-container">
-      <!-- Logo path – change this if your filename/path is different -->
-      <img src="assets/images/RBLogo.png" alt="RawBooty" class="logo-img"/>
-      <!-- If logo is in root instead, use: src="/rb-logo.png" -->
-      <!-- If separate coins + text, we can rebuild with <h1> + <img> side-by-side -->
+<body>
+  <div class="container">
+
+    <div class="logo">
+      <img src="assets/images/RBLogo.png" alt="RawBooty Logo">
     </div>
 
-    <nav>
-      <a href="/tools.html" class="nav-link">Tools & Market Data</a>
-      <a href="/resources.html" class="nav-link">Recommended Media</a>
-    </nav>
-  </header>
+    <div class="nav">
+      <a href="tools.html">Tools &amp; Market Data</a>
+      <a href="resources.html">Recommended Media</a>
+    </div>
 
-  <footer>
-    <p>RawBooty – unfiltered social, political and economic commentary</p>
-    <p>General Disclaimer: Content is for informational purposes only. No financial, legal, investment, or professional advice. No fiduciary duty. Readers bear full responsibility for decisions and risks. Data/tools illustrative only. No warranty of accuracy or completeness.</p>
-  </footer>
+    <div class="papers">
 
+      <!-- Example paper item -->
+      <div class="paper">
+        <div>
+          <span class="paper-date">2026-01-09</span>
+          <span class="paper-title"><a href="paper-2026-01-09.html">Paper Title Linked</a></span>
+        </div>
+        <div class="paper-summary">
+          Summary text here (~200–300 characters) describing the paper’s topic,
+          main point, and why a reader should click.
+        </div>
+      </div>
+
+      <!-- Duplicate the .paper block above for each entry -->
+
+    </div>
+
+    <div class="disclaimer">
+      <strong>General Disclaimer</strong><br>
+      Content on this site is provided for informational and analytical purposes only.
+      It reflects observations, interpretations, and models constructed under
+      limited constraints and evolving data. Nothing on this site constitutes
+      financial, legal, investment, or professional advice, and no fiduciary duty
+      is created. Readers are solely responsible for their own decisions and risk
+      exposure. Data, tools, and visualizations are illustrative and may be
+      incomplete, outdated, or incorrect. No warranty is made regarding accuracy,
+      completeness, or suitability for any purpose. Users must conduct their own
+      due diligence; no content here should be relied upon when making financial
+      or life decisions.
+    </div>
+
+  </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
