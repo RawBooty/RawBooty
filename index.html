@@ -36,12 +36,29 @@
       font-size: 1rem;
     }
     .nav a {
-      margin: 0 16px;
+      margin: 0 24px;
       text-decoration: none;
       color: #000;
       font-weight: bold;
-    }
+      position: relative;
+     }
 
+   .nav a::after {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: -4px;
+     width: 100%;
+     height: 2px;
+     background: #000;
+     opacity: 0;
+     transition: opacity 0.2s ease;
+     }
+
+    .nav a:hover::after {
+     opacity: 1;
+     }
+    
     .paper {
       display: grid;
       grid-template-columns: 90px 1fr;
@@ -126,6 +143,7 @@
   </div>
 </body>
 </html>
+
 
 
 
