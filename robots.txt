@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rawbooty.github.io/RawBooty/sitemap.xml
+Sitemap: https://rawbooty.com/sitemap.xml
+
