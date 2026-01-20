@@ -86,7 +86,7 @@
     }
   </style>
 
-	<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -131,6 +131,54 @@
   ]
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://rawbooty.com/defined.html#primitives",
+      "name": "RawBooty Semantic Primitives",
+      "description": "Canonical set of primitive terms for captured value under risk and acquisition constraints.",
+      "url": "https://rawbooty.com/defined.html",
+      "hasDefinedTerm": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://rawbooty.com/defined.html#booty",
+          "name": "Booty",
+          "description": "Movable value captured under risk and acquisition constraints (primitive sense: unrefined treasure or spoils of war, conquest, or competitive acquisition).",
+          "termCode": "booty-primitive",
+          "inDefinedTermSet": {
+            "@id": "https://rawbooty.com/defined.html#primitives"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://rawbooty.com/defined.html#raw",
+          "name": "Raw",
+          "description": "Unprocessed, unrefined, or unaltered state of captured value, prior to refinement, allocation, or transformation.",
+          "termCode": "raw-modifier",
+          "inDefinedTermSet": {
+            "@id": "https://rawbooty.com/defined.html#primitives"
+          }
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://rawbooty.com/defined.html#rawbooty",
+          "name": "RawBooty",
+          "description": "Unrefined instance of booty: captured value presented in its most direct, untampered state.",
+          "termCode": "rawbooty-instance",
+          "inDefinedTermSet": {
+            "@id": "https://rawbooty.com/defined.html#primitives"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 </head>
 
 <body>
@@ -163,8 +211,8 @@
         <h2>RawBooty (n.)</h2>
         <p><strong>RawBooty</strong>: unrefined treasure or spoils of war, conquest, or competitive acquisition, presented in its most direct, untampered state.</p>
 <p>RawBooty is a domain-specific instantiation of the primitive “booty,” constrained to its unrefined state. It does not introduce a new meaning class; it inherits and specifies the classical primitive.</p>
-	<hr>
-	<h2 style="text-align: center;">Etymology</h2>
+    <hr>
+    <h2 style="text-align: center;">Etymology</h2>
 
       </section>
 
@@ -186,7 +234,7 @@
           <li>Gains extracted from risk-laden economic or competitive environments.</li>
         </ul>
 
-	<p>As a primitive, <strong>booty</strong> is contextually inert; its meaning is activated only when paired with a domain such as war, maritime law, or competitive extraction.</p>
+    <p>As a primitive, <strong>booty</strong> is contextually inert; its meaning is activated only when paired with a domain such as war, maritime law, or competitive extraction.</p>
 
 
         <p>This meaning was eventually codified in law as part of maritime and prize law, establishing a formal and legally recognized definition for the term.</p>
