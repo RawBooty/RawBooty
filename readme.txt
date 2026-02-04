@@ -68,3 +68,15 @@ No fiduciary duty is created. Readers are solely responsible for their own decis
 ## Website
 
 Live Site: http://www.rawbooty.com
+
+## Quick Links
+- [Live Site](https://rawbooty.com)
+- [Defined (Canonical Term)](https://rawbooty.com/defined.html)
+- [Life Lessons](https://rawbooty.com/life.html)
+- [Business](https://rawbooty.com/business.html)
+- [Investing](https://rawbooty.com/investing.html)
+- [Government](https://rawbooty.com/government.html)
+- [Other / Recommended Media](https://rawbooty.com/other.html)
+
+## License
+All original content © rawbooty 2026. Papers and external works are archival/reference only — no ownership claimed.
